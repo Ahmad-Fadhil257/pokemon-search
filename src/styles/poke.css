@@ -236,3 +236,83 @@
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+/* Dark Mode and Game styles */
+.toggle-btn {
+  background: #e2e8f0;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.toggle-btn:hover {
+  background: #cbd5e1;
+}
+
+[data-theme='dark'] .toggle-btn {
+  background: #334155;
+  color: #f8fafc;
+}
+
+[data-theme='dark'] .toggle-btn:hover {
+  background: #475569;
+}
+
+[data-theme='dark'] .pokemon-card,
+[data-theme='dark'] .modal-content,
+[data-theme='dark'] .modal-body {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+[data-theme='dark'] .pokemon-name,
+[data-theme='dark'] .stat-value {
+  color: #f8fafc;
+}
+
+[data-theme='dark'] .stat-item {
+  background: #0f172a;
+}
+
+[data-theme='dark'] .search-input {
+  background: #1e293b;
+  color: #f8fafc;
+  border-color: #334155;
+}
+
+.game-container {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 32px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] .game-container {
+  background: #1e293b;
+}
+
+.game-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokemon-image-large {
+  margin: 2rem 0;
+}
+
+.win-message {
+  margin-top: 1rem;
+}
+
+.win-message h3 {
+  color: #10b981;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
