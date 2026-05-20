@@ -1,5 +1,7 @@
 # PokeVibe - Modern Pokemon Search
 
+![PokeVibe Dashboard](dashboard.png)
+
 A beautiful and responsive Pokemon explorer using the PokeAPI.
 
 ## Features
@@ -19,20 +21,14 @@ A beautiful and responsive Pokemon explorer using the PokeAPI.
 2. Run `pnpm install`.
 3. Run `pnpm dev`.
 
-## Application Previews
+## Interactive Guess The Pokemon Game
 
-### 🔍 PokeVibe Dashboard
-A modern glassmorphism explorer displaying Pokemon lists and dynamic, type-based theme colors:
-
-![PokeVibe Dashboard](dashboard.png)
-
-### 🎮 Guess The Pokemon Mini-Game
+### 🎮 Mini-Game
 Interact with a beautiful guessing game interface featuring Pokemon silhouettes:
 
 ![Guess The Pokemon](tebak%20pokemon.png)
 
-### 🎉 Guess The Pokemon Reveal State
+### 🎉 Reveal State
 The reveal screen upon guessing the Pokemon correctly, showing its full design and stats:
 
 ![Reveal Pokemon Stats](reveal%20tebak%20pokemon.png)
-
