@@ -18,3 +18,21 @@ A beautiful and responsive Pokemon explorer using the PokeAPI.
 1. Clone the repository.
 2. Run `pnpm install`.
 3. Run `pnpm dev`.
+
+## Application Previews
+
+### 🔍 PokeVibe Dashboard
+A modern glassmorphism explorer displaying Pokemon lists and dynamic, type-based theme colors:
+
+![PokeVibe Dashboard](dashboard.png)
+
+### 🎮 Guess The Pokemon Mini-Game
+Interact with a beautiful guessing game interface featuring Pokemon silhouettes:
+
+![Guess The Pokemon](tebak%20pokemon.png)
+
+### 🎉 Guess The Pokemon Reveal State
+The reveal screen upon guessing the Pokemon correctly, showing its full design and stats:
+
+![Reveal Pokemon Stats](reveal%20tebak%20pokemon.png)
+
