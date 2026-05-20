@@ -2,6 +2,16 @@
 
 ![PokeVibe Dashboard](dashboard.png)
 
+### 🎮 Mini-Game
+Interact with a beautiful guessing game interface featuring Pokemon silhouettes:
+
+![Guess The Pokemon](tebak%20pokemon.png)
+
+### 🎉 Reveal State
+The reveal screen upon guessing the Pokemon correctly, showing its full design and stats:
+
+![Reveal Pokemon Stats](reveal%20tebak%20pokemon.png)
+
 A beautiful and responsive Pokemon explorer using the PokeAPI.
 
 ## Features
@@ -20,15 +30,3 @@ A beautiful and responsive Pokemon explorer using the PokeAPI.
 1. Clone the repository.
 2. Run `pnpm install`.
 3. Run `pnpm dev`.
-
-## Interactive Guess The Pokemon Game
-
-### 🎮 Mini-Game
-Interact with a beautiful guessing game interface featuring Pokemon silhouettes:
-
-![Guess The Pokemon](tebak%20pokemon.png)
-
-### 🎉 Reveal State
-The reveal screen upon guessing the Pokemon correctly, showing its full design and stats:
-
-![Reveal Pokemon Stats](reveal%20tebak%20pokemon.png)
